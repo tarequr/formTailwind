@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/plugin.css">
 </head>
 <body class="bg-blue-100 h-screen">
-    <header class="bg-blue-500 py-3 relative">
+    <header class="bg-blue-500 py-3 sm:py-0 relative">
         <div class="container mx-auto w-3/5 flex justify-between">
             <a href="/index.html" class="
                 flex 
@@ -42,16 +42,16 @@
     </header>
 
     <section class="">
-        <div class="container mx-auto w-3/5 flex justify-between flex-col">
-            <div class="order-2 bg-white p-8">
+        <div class="container mx-auto w-3/5 flex justify-between flex-col sm:flex-row sm:h-full sm:items-center">
+            <div class="order-2 bg-white p-8 sm:order-1 sm:w-1/2 sm:text-center sm:mt-36">
                 <h3 class="text-3xl font-bold mb-1">Welcome Back</h3>
-                <p class="text-gray-500 mb-1">Please enter your details</p>
+                <p class="text-gray-500 mb-5">Please enter your details</p>
 
                 <form action="">
-                    <label for="email" class="font-semibold mb-1 block">Email</label>
+                    <label for="email" class="font-semibold mb-1 block sm:text-left">Email</label>
                     <input type="email" placeholder="Enter email" class="border w-full p-2 mb-2 rounded-lg">
 
-                    <label for="password" class="font-semibold mb-1 block">Password</label>
+                    <label for="password" class="font-semibold mb-1 block sm:text-left">Password</label>
                     <input type="password" placeholder="Enter password" class="border w-full p-2 mb-3 rounded-lg">
 
                     <button type="submit" class="text-white font-semibold hover:transition-colors bg-blue-900 px-3 py-2 block rounded pb-3 w-full cursor-pointer hover:bg-violet-800 mb-4">Sign In</button>
@@ -60,7 +60,7 @@
                 <p class="text-gray-400 text-sm">Don't Have an Account? <a href="#" class="text-blue-500 underline">Sing Up</a></p>
             </div>
 
-            <div class="order-1 py-8">
+            <div class="order-1 py-8 sm:order-2 sm:w-1/2 flex sm:items-center sm:pl-5">
                 <img src="/img/login.svg" alt="">
             </div>
         </div>
